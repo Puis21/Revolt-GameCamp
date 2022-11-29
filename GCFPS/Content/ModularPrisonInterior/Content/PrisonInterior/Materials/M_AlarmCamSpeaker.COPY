@@ -1,0 +1,55 @@
+Begin Object Class=/Script/Engine.Material Name="M_AlarmCamSpeaker"
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/PrisonInterior/Textures/T_CamSpeaker_BaseColor.T_CamSpeaker_BaseColor"'
+      MaterialExpressionEditorX=-255
+      MaterialExpressionEditorY=-121
+      MaterialExpressionGuid=B337E9FA48B2315B997E9785624B1912
+      Material=Material'"M_AlarmCamSpeaker"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Texture=Texture2D'"/Game/PrisonInterior/Textures/T_CamSpeaker_Normal.T_CamSpeaker_Normal"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-320
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=8352C8C54962E8240153F290378CD025
+      Material=Material'"M_AlarmCamSpeaker"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Texture=Texture2D'"/Game/PrisonInterior/Textures/T_CamSpeaker_OcclusionRoughnessMetallic.T_CamSpeaker_OcclusionRoughnessMetallic"'
+      MaterialExpressionEditorX=-304
+      MaterialExpressionEditorY=160
+      MaterialExpressionGuid=0ECE4BFE4021C7E6000AE48DA3DFFCC1
+      Material=Material'"M_AlarmCamSpeaker"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',OutputIndex=3,Mask=1,MaskB=1)
+   Roughness=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',OutputIndex=2,Mask=1,MaskG=1)
+   Normal=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   AmbientOcclusion=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',OutputIndex=1,Mask=1,MaskR=1)
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(2)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=19D249024511A89DCE22E3B0781043DE
+   CachedExpressionData=(ReferencedTextures=(Texture2D'"/Game/PrisonInterior/Textures/T_CamSpeaker_BaseColor.T_CamSpeaker_BaseColor"',Texture2D'"/Game/PrisonInterior/Textures/T_CamSpeaker_Normal.T_CamSpeaker_Normal"',Texture2D'"/Game/PrisonInterior/Textures/T_CamSpeaker_OcclusionRoughnessMetallic.T_CamSpeaker_OcclusionRoughnessMetallic"'),QualityLevelsUsed=(False,True,False))
+   ReferencedTextureGuids(0)=3B47A99F4AED1EFED518569291180E40
+   ReferencedTextureGuids(1)=61A238C54DC4B2EDB8A5B48825DEB76F
+   ReferencedTextureGuids(2)=563615CF49B1587F3CB86A845C493C6C
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_CamSpeaker_BaseColor",TextureReference=/Game/PrisonInterior/Textures/T_CamSpeaker_BaseColor.T_CamSpeaker_BaseColor)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_CamSpeaker_Normal",TextureReference=/Game/PrisonInterior/Textures/T_CamSpeaker_Normal.T_CamSpeaker_Normal)
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_CamSpeaker_OcclusionRoughnessMetallic",TextureReference=/Game/PrisonInterior/Textures/T_CamSpeaker_OcclusionRoughnessMetallic.T_CamSpeaker_OcclusionRoughnessMetallic)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=9B800F934E05D26C8B7073ADD37A88A5
+End Object
